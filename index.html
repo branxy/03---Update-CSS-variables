@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Update CSS variables</title>
+  </head>
+  <body>
+    <h1>Update CSS <span>variables</span></h1>
+    <div class="controls">
+      <div class="spacing">
+        <input
+          type="range"
+          name="padding"
+          id=""
+          min="0"
+          max="40"
+          value="10"
+          data-sizing="px"
+        />
+        <label for="spacing">Spacing:</label>
+      </div>
+      <div class="blur">
+        <input
+          type="range"
+          name="blur"
+          min="0"
+          max="25"
+          value="0"
+          data-sizing="px"
+        />
+        <label for="blur">Blur:</label>
+      </div>
+      <input type="color" name="color" id="" />
+    </div>
+    <div class="img-cont">
+      <img
+        src="https://images.unsplash.com/photo-1691525737402-e7a447ec2be5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80"
+        alt=""
+      />
+    </div>
+  </body>
+</html>
